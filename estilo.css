@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:15%;
+    padding:5px 15px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:rgb(255, 255, 255);
+
+    }
+    nav li:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+    }
+
+body 
+{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+.parallax-completo{
+    width: 1900px;
+    height: 100vh;
+    background-image: url(teclado\ fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+
+.parallax-abajo{ 
+    width: 1900px;
+    height: 60vh;
+    background-image: url(fondo\ codigo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+
+ }
+
+ h2 {  
+    background-color: rgba(180, 161, 161, 0.5);
+    color: white;
+    text-shadow: 5px  0px 0px black,
+                 0px  5px 0px black,
+                -5px  0px 0px black,
+                 0px -5px 0px black;;
+    font-weight: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48pt;
+    padding: 70px;
+    padding-top: 45px;
+    padding-left: 45px;
+
+}
+    .inicio1 {
+    color: blanchedalmond;
+    margin-top: 20pt;
+
+    }
+ h1 {
+
+    color: black;
+    font-weight: inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 48pt;
+    padding: 70px;
+    padding-top: 4px;
+    padding-left: center;
+}
+p {
+    color: black;
+    font-weight: inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding: 40px;
+    padding-top: 1px;
+    padding-left: center;
+}
+
+.container {
+position: relative;
+width: 1200px;
+height: 300px;
+margin-right: center;
+background: rgb(247, 249, 250);
+box-shadow: 2px 2px 5px  rgb(0, 0, 0);
+
+
+}
+
+h3 {
+    color:rgb(119, 193, 241);
+    font-size: 30pt;
+    padding: 50pt;
+    padding-top: 4px;
+    padding-left: 30%;
+    margin-top: 50pt;
+    margin-left: 340px;
+
+}
+.contenedor-pasos {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 45%;
+    margin-left: 450px;
+}
+ 
+.pasos .contenido-textos{
+    width: 45%;
+}
+
+.contenido-textos h4{
+    margin-bottom: 15px;
+}
+.contenido-textos h4 span{
+    background: rgb(119, 193, 241);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px #000;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+h5{
+    background-color: rgba(180, 161, 161, 0.5)  ;
+    border-radius: 50px;
+    margin-bottom: initial;
+    color: white;
+    text-shadow: 5px  0px 0px black,
+                 0px  5px 0px black,
+                -5px  0px 0px black,
+                 0px -5px 0px black;;
+
+    font-weight: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50pt;
+    padding: 50px;
+    padding-top: 50px;
+    padding-left: 40%;
+    margin-left: 400px;
+}
+.parallax-medio{
+    width: 1900px;
+    height: 100vh;
+    background-image: url(medio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.imagen{
+    padding-top: 50px;
+    padding-left: 40%;
+    margin-left: 450px;
+    
+}
+
+h6 {
+    color:rgb(154, 209, 247);
+    font-size: 40pt;
+    padding: 50pt;
+    padding-top: 50px;
+    padding-left: 30%;
+    margin-left: 340px;
+}
+.imageestruc{
+    padding-top: 10px;
+    padding-left: 30%;
+    margin-left: 450px;
+}
